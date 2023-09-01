@@ -12,7 +12,7 @@ const HeroSection = () => {
         />
       </div>
       <div className="text-center relative">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl mb-4">WEDDINGS WITH HOPE</h1>
+        <h1 className="text-3xl md:text-5xl lg:text-6xl mb-4 text-grey">WEDDINGS WITH HOPE</h1>
         <p className="text-lg md:text-xl lg:text-2xl">with WConnect</p>
         <button className="py-3 px-8 mt-4 md:mt-8 bg-red-500 text-white rounded-md hover:bg-red-600 transform transition-all duration-300">
           Explore
