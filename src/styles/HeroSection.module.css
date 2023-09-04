@@ -1,17 +1,19 @@
-src/styles/HeroSection.module.css
 .hero {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: rgba(0, 0, 0, 0.3); */
-    backdrop-filter: blur(3px) ;
-    background: url('/background6.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-  }
-  
+  /* Your existing background image properties */
+  background-image: url('/background6.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add a blur class for the blur effect */
+.blur {
+  filter: blur(5px);
+  filter: brightness(70%)
+
+   /* Adjust the blur intensity as needed */
+}
+
+
   .overlay {
     text-align: center;
   }

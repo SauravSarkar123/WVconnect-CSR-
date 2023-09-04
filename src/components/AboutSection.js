@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section className="py-12 bg-gray-100">
-      <div className="container mx-auto rounded-lg overflow-hidden bg-white shadow-lg">
+    <section className="py-12 bg-gray-100 p-12">
+      <div className="container mx-auto rounded-lg overflow-hidden p-6 bg-white shadow-lg">
         <div className="flex flex-col md:flex-row">
           <div className="md:flex-1 p-6 md:p-10 mb-4 md:mb-0 flex flex-col items-center md:items-start">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-800 mt-10">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-800 mt-11">
               ABOUT WEDDING WITH HOPE
             </h2>
             <p className="text-gray-600 text-lg mb-6">
