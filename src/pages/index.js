@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google'
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import AboutSection from '@/components/AboutSection'
-import EssenceOfPresence from '@/components/essence'
 import Mission from '@/components/OurMission'
+import Whynow from '@/components/whynow'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,8 +14,9 @@ export default function Home() {
     <Navbar/>
     <HeroSection /> 
     <AboutSection/> 
-    <EssenceOfPresence/>
+    
     <Mission/>
+    <Whynow/>
     </>
     
   )

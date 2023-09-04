@@ -3,9 +3,9 @@ import React from 'react';
 const Mission = () => {
     return (
         <div className="container mx-auto p-6 text-center">
-            <h1 className="text-3xl font-semibold text-left italic">Our mission</h1>
-            <p className="font-bold text-2xl mt-4 text-left italic">Nurturing Hope, Love and New Beginnings</p>
-            <p className="mt-4 text-left">
+            <h1 className="text-3xl font-semibold text-center italic">Our mission</h1>
+            <p className="font-bold text-2xl mt-4 text-center italic">Nurturing Hope, Love and New Beginnings</p>
+            <p className="mt-4 text-center">
                 Life's challenges are many, but "101 wedding with hope" lights the way for those navigating life's tumults
             </p>
             <div className="mt-8 flex justify-center space-x-8">
