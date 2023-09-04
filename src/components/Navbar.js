@@ -35,16 +35,16 @@ const Navbar = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 md:py-6">
           <div className="flex-shrink-0">
-            <div className="text-3xl font-semibold text-white">Your Logo</div>
+            <div className="text-2xl font-semibold text-white">Your Logo</div>
           </div>
           <div className="hidden md:flex space-x-12">
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">About US</a>
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">Speakers</a>
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">Event Timeline</a>
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">WV Awards</a>
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">CSR</a>
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">Throwback</a>
-            <a href="#" className="text-3xl font-regular text-white hover:text-gray-300">Contact US</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">About US</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">Speakers</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">Event Timeline</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">WV Awards</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">CSR</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">Throwback</a>
+            <a href="#" className="text-2xl font-regular text-white hover:text-gray-300">Contact US</a>
           </div>
           <div className="md:hidden">
             {/* Mobile menu button */}

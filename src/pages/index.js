@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import AboutSection from '@/components/AboutSection'
 import EssenceOfPresence from '@/components/essence'
+import Mission from '@/components/OurMission'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
     <HeroSection /> 
     <AboutSection/> 
     <EssenceOfPresence/>
+    <Mission/>
     </>
     
   )
