@@ -36,7 +36,7 @@ const Mission = () => {
                         </p>
                     </div>
                 </div>
-                <div className='relative top-9'>
+                <div className='relative top-11'>
                     <h2 className="text-3xl font-bold text-center mb-4">Why Now? The Imperative</h2>
                     <p className="text-lg text-left mb-8">
                         In recent years, the world has witnessed unprecedented challenges, leaving
