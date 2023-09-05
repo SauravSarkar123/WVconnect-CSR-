@@ -6,6 +6,7 @@ import AboutSection from '@/components/AboutSection'
 import Mission from '@/components/OurMission'
 import JoinUs from '@/components/whynow'
 import EventDetails from '@/components/Eventdetails'
+import EventHighlights from '@/components/EventHighlights'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
     <Mission/>
     <JoinUs/>
     <EventDetails/>
+    <EventHighlights/>
     </>
     
   )

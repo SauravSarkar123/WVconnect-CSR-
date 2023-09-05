@@ -6,7 +6,7 @@ const Mission = () => {
             <div className="container mx-auto p-6 text-center">
                 <div className="my-content-class"> {/* Add a div wrapper with a custom class */}
                     <h1 className="text-3xl font-semibold italic">Our mission</h1>
-                    <p className="font-bold text-2xl mt-4 italic">Nurturing Hope, Love and New Beginnings</p>
+                    <p className="font-bold text-3xl mt-4 italic">Nurturing Hope, Love and New Beginnings</p>
                     <p className="mt-4">
                         Life's challenges are many, but "101 wedding with hope" lights the way for those navigating life's tumults
                     </p>
@@ -36,7 +36,7 @@ const Mission = () => {
                         </p>
                     </div>
                 </div>
-                <div className='relative top-11'>
+                <div className='relative top-20'>
                     <h2 className="text-3xl font-bold text-center mb-4">Why Now? The Imperative</h2>
                     <p className="text-lg text-left mb-8">
                         In recent years, the world has witnessed unprecedented challenges, leaving
