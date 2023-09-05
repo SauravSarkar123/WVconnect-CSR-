@@ -59,15 +59,16 @@ const EventHighlights = () => {
           {eventsData.map((event, index) => (
             <div
               key={index}
-              className="bg-gray-100 hover:shadow-lg transition-transform hover:scale-105"
+              className="bg-gray-100 p-4 "
+              style={{ minHeight: '350px' }} // Set a fixed height for the container
             >
               <img
                 src={event.imageSrc}
                 alt={event.heading}
-                className="w-full h-auto mb-4"
+                className="w-full h-40 object-cover mb-4" // Set a fixed height for the image
               />
               <h2 className="text-xl font-bold mb-2">{event.heading}</h2>
-              <p>{event.description}</p>
+              <p className="text-sm text-gray-600 max-h-20 overflow-hidden overflow-ellipsis">{event.description}</p>
             </div>
           ))}
         </div>
