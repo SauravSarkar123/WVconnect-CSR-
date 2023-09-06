@@ -7,6 +7,8 @@ import Mission from '@/components/OurMission'
 import JoinUs from '@/components/whynow'
 import EventDetails from '@/components/Eventdetails'
 import EventHighlights from '@/components/EventHighlights'
+import Gifts from '@/components/Gifts'
+import Donate from '@/components/Donate'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +22,8 @@ export default function Home() {
     <JoinUs/>
     <EventDetails/>
     <EventHighlights/>
+    <Gifts/>
+    <Donate/>
     </>
     
   )

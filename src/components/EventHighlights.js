@@ -54,7 +54,7 @@ const EventHighlights = () => {
   return (
     <div className="bg-gray-100 py-8">
       <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-left mb-8">EVENT HIGHLIGHTS</h1>
+        <h1 className="text-5xl font-bold text-left mb-8">EVENT HIGHLIGHTS</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
           {eventsData.map((event, index) => (
             <div
