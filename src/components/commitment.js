@@ -2,10 +2,10 @@ import React from 'react';
 
 const CommitmentBox = () => {
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg">
-      <h2 className="text-center text-2xl font-semibold mb-6">COMMITMENT</h2>
+    <div className="bg-white p-4 md:p-8 rounded-lg shadow-lg">
+      <h2 className="text-center text-xl md:text-2xl font-semibold mb-4 md:mb-6">COMMITMENT</h2>
       <div className="md:flex md:items-center md:space-x-8">
-        <div className="bg-red-500 text-white p-4 rounded-lg flex items-center space-x-4">
+        <div className="bg-red-500 text-white p-4 rounded-lg flex items-center space-x-4 md:space-x-8">
           <div className="bg-white w-10 h-10 flex items-center justify-center rounded-full">
             {/* Placeholder email icon */}
             <svg
@@ -30,8 +30,8 @@ const CommitmentBox = () => {
             </svg>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Transparent Allocation:</h3>
-            <p className="text-sm">
+            <h3 className="text-lg md:text-xl font-semibold">Transparent Allocation:</h3>
+            <p className="text-sm md:text-base">
               Your contributions are in safe hands. Every donation will be
               thoughtfully allocated to craft an unparalleled experience for
               our couples. From outfits to essential necessities, and the day's
@@ -65,8 +65,8 @@ const CommitmentBox = () => {
             </svg>
           </div>
           <div>
-            <h3 className="text-xl font-semibold">Our Assurance:</h3>
-            <p className="text-sm">
+            <h3 className="text-lg md:text-xl font-semibold">Our Assurance:</h3>
+            <p className="text-sm md:text-base">
               In collaboration with Ananta Spa and Resort, WV Connect 2024
               remains steadfast in celebrating human perseverance and the
               boundless power of love. Every donation is channeled through our
