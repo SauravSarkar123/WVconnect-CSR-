@@ -11,6 +11,7 @@ import Gifts from '@/components/Gifts'
 import Donate from '@/components/Donate'
 import Commitment from '@/components/commitment'
 import LegacyDiscover from '@/components/Leagacy'
+import Genesis from '@/components/Genesis'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function Home() {
     <Donate/>
    <Commitment/>
    <LegacyDiscover/>
+   <Genesis/>
     </>
     
   )

@@ -2,8 +2,13 @@ import React from 'react';
 
 const CommitmentBox = () => {
   return (
+<<<<<<< HEAD
     <div className="bg-white p-4 md:p-8 rounded-lg shadow-lg">
       <h2 className="text-center text-xl md:text-2xl font-semibold mb-4 md:mb-6">COMMITMENT</h2>
+=======
+    <div className="bg-white p-8 rounded-lg shadow-lg">
+      <h2 className="text-center text-3xl font-semibold mb-6">COMMITMENT</h2>
+>>>>>>> 0d946ff82c92939ef73f124c4b3a5a8bb8999661
       <div className="md:flex md:items-center md:space-x-8">
         <div className="bg-red-500 text-white p-4 rounded-lg flex items-center space-x-4 md:space-x-8">
           <div className="bg-white w-10 h-10 flex items-center justify-center rounded-full">
