@@ -2,7 +2,7 @@ import React from "react";
 
 const EventDetails = () => {
   return (
-    <div className="py-6 md:py-12 bg-gray-100 px-4 md:px-12">
+    <div className="py-6 md:py-12  px-4 md:px-12">
       <div className="py-6 md:py-12 px-4 md:px-12">
         <h1 className="text-3xl md:text-5xl font-bold italic">101 Weddings With Hope</h1>
         <h1 className="mt-4 md:mt-6 text-3xl md:text-5xl font-bold text-yellow-500">Venue Details</h1>

@@ -52,9 +52,9 @@ const EventHighlights = () => {
 
   return (
     <div className="bg-gray-100 py-6 md:py-12">
-      <div className="container mx-auto">
-        <h1 className="text-3xl md:text-5xl font-bold text-left mb-4 md:mb-8">EVENT HIGHLIGHTS</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-7">
+      <div className="py-6 md:py-12 px-4 md:px-12">
+        <h1 className="py-6 md:py-12 px-4 md:px-12 text-3xl md:text-5xl font-bold text-left mb-4 md:mb-8">EVENT HIGHLIGHTS</h1>
+        <div className="py-6 md:py-12 px-4 md:px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-7">
           {eventsData.map((event, index) => (
             <div
               key={index}
