@@ -6,7 +6,7 @@ const Genesis = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center justify-center p-4 bg-gray-100">
             {/* Left Part */}
-            <div className="lg:w-1/2 lg:pr-11">
+            <div className="lg:w-1/2 lg:pr-11 relative left-6">
                 <h2 className="text-5xl lg:text-6xl font-bold text-center lg:text-left mb-4 md:mb-6">
                     WV Connect: The Genesis
                 </h2>
