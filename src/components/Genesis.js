@@ -20,7 +20,7 @@ const Genesis = () => {
             </div>
 
             {/* Right Part */}
-            <div className="lg:w-1/2 mt-4 lg:mt-8 lg:mb-8"> 
+            <div className="lg:w-1/2 mt-4 lg:mt-11 lg:mb-9"> 
                 <img
                     src="/Genesis.png" // Replace with the actual image path
                     alt="WV Connect Image"
